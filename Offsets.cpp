@@ -3,7 +3,7 @@ namespace offsets
 {
     // buttons
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const long IN_ATTACK = 0x07640a70; // [Buttons] -> in_attack
+    const long IN_ATTACK = 0x07642a70; // [Buttons] -> in_attack
     // core
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long REGION = 0x140000000;     // [Mine]          -> Region
@@ -24,6 +24,5 @@ namespace offsets
     const long VIEW_ANGLE = (0x2584 - 0x14);        // [DataMap.C_Player]               -> m_ammoPoolCapacity - 0x14
     const long BLEEDOUT_STATE = 0x2718;             // [RecvTable.DT_Player]            -> m_bleedoutState
     const long ZOOMING = 0x1c31;                    // [RecvTable.DT_Player]            -> m_bZooming
-    const long LAST_VISIBLE_TIME = 0x1a70;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
-    const long lastCrosshairTargetTime = 0x1a78;    // CPlayer!lastCrosshairTargetTime=
+    const long LAST_VISIBLE_TIME = 0x1a70;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime  1st offset from dump
 }
