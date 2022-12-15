@@ -16,7 +16,7 @@ public:
     {
         char keys_return[32];
         XQueryKeymap(display, keys_return);
-        KeyCode kc2 = XKeysymToKeycode(display, XK_Shift_L);
+        KeyCode kc2 = XKeysymToKeycode(display, XK_Alt_L);
         bool buttonDown = !!(keys_return[kc2 >> 3] & (1 << (kc2 & 7)));
         return buttonDown;
     }
