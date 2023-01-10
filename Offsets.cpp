@@ -8,7 +8,7 @@ namespace offsets
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long REGION = 0x140000000;     // [Mine]          -> Region
     const long LEVEL = 0x1449F00;        // [Miscellaneous] -> LevelName
-    const long LOCAL_PLAYER = 0x1EDB670; // [Miscellaneous] -> LocalPlayer
+    const long LOCAL_PLAYER = 0x77327C0; // [Miscellaneous] -> LocalPlayer
     const long ENTITY_LIST = 0x1b2a578;  // [Miscellaneous] -> cl_entitylist
     // entity
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -20,9 +20,9 @@ namespace offsets
     const long TEAM_NUMBER = 0x044c;                // [RecvTable.DT_BaseEntity]        -> m_iTeamNum
     const long NAME = 0x0589;                       // [RecvTable.DT_BaseEntity]        -> m_iName
     const long LIFE_STATE = 0x0798;                 // [RecvTable.DT_Player]            -> m_lifeState
-    const long VEC_PUNCH_WEAPON_ANGLE = 0x2488;     // [DataMap.C_Player]               -> m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
+    const long VEC_PUNCH_WEAPON_ANGLE = 0x24a8;     // [DataMap.C_Player]               -> m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
     const long VIEW_ANGLE = (0x2584 - 0x14);        // [DataMap.C_Player]               -> m_ammoPoolCapacity - 0x14
-    const long BLEEDOUT_STATE = 0x2718;             // [RecvTable.DT_Player]            -> m_bleedoutState
+    const long BLEEDOUT_STATE = 0x2738;             // [RecvTable.DT_Player]            -> m_bleedoutState
     const long ZOOMING = 0x1c31;                    // [RecvTable.DT_Player]            -> m_bZooming
-    const long LAST_VISIBLE_TIME = 0x1a70;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime  1st offset from dump
+    const long LAST_VISIBLE_TIME = 0x1A70;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime  1st offset from dump
 }
