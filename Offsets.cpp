@@ -14,7 +14,7 @@ namespace offsets
     const long ENTITY_LIST = 0x1b2a578;             // [Miscellaneous] -> cl_entitylist
     // entity
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const long LOCAL_ORIGIN = 0x0158; 	    	    // [DataMap.CBaseViewModel]    -> m_localOrigin
+    const long LOCAL_ORIGIN = (0x0158 + 0x54); 	    	    // [DataMap.CBaseViewModel]    -> m_localOrigin
     // player
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long GLOW_ENABLE = (0x03c0 + 0x8);        // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
