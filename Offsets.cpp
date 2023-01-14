@@ -25,3 +25,4 @@
         const long BLEEDOUT_STATE = 0x2738;             // [RecvTable.DT_Player]            -> m_bleedoutState
         const long ZOOMING = 0x1c51;                    // [RecvTable.DT_Player]            -> m_bZooming
         const long LAST_VISIBLE_TIME = 0x1a70;          // [Miscellaneous]                  -> CPlayer!lastVisibleTime
+}
