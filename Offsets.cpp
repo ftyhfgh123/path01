@@ -6,13 +6,13 @@
     {
         // buttons
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        const long IN_ATTACK = 0x076687d8; // [Buttons] -> in_attack
+        const long IN_ATTACK = 0x0766a958; // [Buttons] -> in_attack
         // core
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         const long REGION = 0x140000000;     // [Mine]          -> Region
-        const long LEVEL = 0x144bf10;        // [Miscellaneous] -> LevelName
-        const long LOCAL_PLAYER = (0x01edd7e0 + 0x8); // [Miscellaneous] -> LocalPlayer
-        const long ENTITY_LIST = 0x1b2c6e8;  // [Miscellaneous] -> cl_entitylist
+        const long LEVEL = 0x144df40;        // [Miscellaneous] -> LevelName
+        const long LOCAL_PLAYER = (0x01edf800 + 0x8); // [Miscellaneous] -> LocalPlayer
+        const long ENTITY_LIST = 0x1b2e708;  // [Miscellaneous] -> cl_entitylist
         // entity
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         const long LOCAL_ORIGIN = 0x0158; // [DataMap.CBaseViewModel]    -> m_localOrigin
