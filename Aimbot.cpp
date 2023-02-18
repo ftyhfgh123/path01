@@ -10,7 +10,7 @@
 class Aimbot
 {
 private:
-    const int m_smoothing = 40;   // If you cross-hairs are not on target then this smoothness will be used.
+    const int m_smoothing = 25;   // If you cross-hairs are not on target then this smoothness will be used.
     const int m_activationFOV = 3; // FOV for activation
 
 public:
