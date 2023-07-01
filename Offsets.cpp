@@ -1,11 +1,11 @@
-    // Updated: 2023-06-20 // GameVersion v3.0.35.21
+     // Updated: 2023-06-29 // GameVersion v3.0.36.26
      
     #pragma once
     namespace offsets
     {
         // buttons
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        const long IN_ATTACK = (0x07404610 + 0x8);            // [Buttons] -> in_attack+0x8
+        const long IN_ATTACK = (0x0743d330 + 0x8);            // [Buttons] -> in_attack+0x8
         // core
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         const long REGION = 0x140000000;              // [Mine]          -> Region
