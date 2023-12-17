@@ -1,3 +1,5 @@
+
+
     //GameVersion=v3.0.51.45
     //LastUpdated=21/11/2023
     //UpdatedBy:DAHUSTLA
@@ -20,8 +22,8 @@
         const long LOCAL_ORIGIN = 0x0188;               //[DataMap.CBaseViewModel]->m_localOrigin
         // player
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        const long GLOW_ENABLE = 0x294;                 // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
-        const long GLOW_THROUGH_WALL = 0x278;           // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x10
+        const long GLOW_ENABLE = 0x294;                 // Script_Highlight_GetCurrentContext
+        const long GLOW_THROUGH_WALL = 0x278;           // DT_BaseEntity -> m_passThroughFlags
         const long GLOW_ACTIVE_STATES = 0x298;          // DT_HighlightSettings.m_highlightServerActiveStates
         const long TEAM_NUMBER = 0x037c;                // C_BaseEntity.m_iTeamNum
         const long NAME = 0x04b9;                       // C_BaseEntity.m_iName
