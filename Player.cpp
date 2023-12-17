@@ -131,7 +131,7 @@ public:
         return isVisible;
     }
     void print()
-    {
+   { | long ptrLong = basePointer + offsets::GLOW_COLOR; 
         std::cout << "Player[" + std::to_string(m_entityListIndex) + "]:\n";
         std::cout << "\tUnresolvedBasePointer:\t\t\t" + mem::convertPointerToHexString(getUnresolvedBasePointer()) + "\n";
         std::cout << "\tBasePointer:\t\t\t\t" + mem::convertPointerToHexString(getBasePointer()) + "\n";
@@ -148,3 +148,5 @@ public:
         }
     }
 };
+| long ptrLong = basePointer + offsets::GLOW_COLOR + sizeof(float) + sizeof(float);
+|
