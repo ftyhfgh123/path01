@@ -6,7 +6,7 @@
     {
         // buttons
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        const long IN_ATTACK = 0x020ebfd0;              // Buttons.in_attack
+        const long IN_ATTACK = 0x07382AF0;              // Buttons.in_attack
         // core
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         const long REGION = 0x140000000;
@@ -30,8 +30,8 @@
         const long VIEW_ANGLE = (0x2564 - 0x14);        // DT_Player.m_ammoPoolCapacity - 0x14
         const long BLEEDOUT_STATE = 0x2710;             // DT_Player.m_bleedoutState
         const long ZOOMING = 0x1c01;                    // DT_Player.m_bZooming
-        const long LAST_VISIBLE_TIME = 0x19b0;          // Miscellaneous.CPlayer!lastVisibleTime
-        const long LAST_CROSSHAIR_TIME = (0x19b0 + 0x8);// Miscellaneous.CPlayer!lastVisibleTime + 0x8
+        const long LAST_VISIBLE_TIME = 0x19c0;          // Miscellaneous.CPlayer!lastVisibleTime
+        const long LAST_CROSSHAIR_TIME = (0x19c0 + 0x8);// Miscellaneous.CPlayer!lastVisibleTime + 0x8
         const long CURRENT_SHIELDS = 0x01a0;            // DT_BaseEntity.m_shieldHealth
         const long CURRENT_HEALTH = 0x036c;             // DT_Player.m_iHealth
         const long OFFSET_WEAPON = 0x1964;              // DT_BaseCombatCharacter.m_latestPrimaryWeapons
